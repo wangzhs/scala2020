@@ -106,14 +106,15 @@ object BaiscMain {
   }
 
   // 特质
-  trait GreetTrait{
-    def greet(name:String);
-    def greet2(name:String): Unit ={
+  trait GreetTrait {
+    def greet(name: String);
+
+    def greet2(name: String): Unit = {
       println(2222)
     }
   }
 
-  class GreetClass extends GreetTrait{
+  class GreetClass extends GreetTrait {
     override def greet(name: String): Unit = {
       println(1111)
     }
@@ -123,5 +124,11 @@ object BaiscMain {
     }
   }
 
+  object GreetObject extends GreetTrait{
+    override def greet(name: String): Unit = {
+
+    }
+
+  }
 
 }
