@@ -7,6 +7,7 @@ package com.wzs
 object LogMain {
   def main(args: Array[String]): Unit = {
     Log.printLog("报错了", "ERROR")
+    Log.printLog("报错了")
   }
 
   object Log {
