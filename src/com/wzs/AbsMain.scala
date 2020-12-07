@@ -50,12 +50,12 @@ object AbsMain extends App {
   value.element.foreach(println)
 
 
-  abstract class IntBuffer2[Int, List[Int]] extends SeqBuffer2[Int, List[Int]] {
-  }
-
-  def newIntSeq3(i: Int, j: Int) {
-    new IntBuffer2[Int, List[Int]] {
-      override val element: List[Int] = List(i, j)
-    }
-  }
+//  abstract class IntBuffer2[Int, List[Int]] extends SeqBuffer2[Int, List[Int]] {
+//  }
+//
+//  def newIntSeq3(i: Int, j: Int) {
+//    new IntBuffer2[Int, List[Int]] {
+//      override val element: List[Int] = List(i, j)
+//    }
+//  }
 }
