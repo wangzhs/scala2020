@@ -5,6 +5,8 @@ import com.wzs.ImplicitParamMain.ImplicitTest.sum
 /**
  * @Author wangzhs
  * @create 2020/12/7 18:41
+ *
+ *         todo 隐式转换
  */
 object ImplicitParamMain {
 
